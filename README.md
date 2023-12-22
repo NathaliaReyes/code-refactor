@@ -28,7 +28,7 @@ The following image shows the web application's appearance and functionality:
 
 ## Badges
 
-![Static Badge](https://img.shields.io/badge/HTML-50%-orange)
-![Static Badge](https://img.shields.io/badge/CSS-50%-blue)
+![Static Badge](https://img.shields.io/badge/HTML-50%25-orange)
+![Static Badge](https://img.shields.io/badge/CSS-50%25-blue)
 
 ## Thanks for stopping here!.
