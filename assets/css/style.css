@@ -1,0 +1,181 @@
+/* Apply box-sizing and fonts to the entire page */
+* {
+    box-sizing: border-box;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+/* Reset some margins that are by default */
+body, h1, h2, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set background color for the entire website */
+body {
+    background-color: #d9dcd6;
+}
+
+/* --------- HEADER ----------*/
+/* Apply a padding of 20px on all sides, set a background color, and text color to white */
+header {
+    padding: 20px;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+/* Apply flex display to the nav, center-align items, use specific fonts, and set font size */
+nav {
+    display: flex;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* Pushes the h1 to the left */
+.seo {
+    font-size: 48px;
+    color: #d9dcd6;
+    margin-right: auto;
+    margin-left: 0;
+}
+
+/* Remove list-style from ul within the header navigation */
+header nav ul {
+    list-style: none;
+}
+
+/* Style li within the header navigation: inline-block display and left margin to 25px */
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+
+/* --------- MAIN -----------*/
+/* Style anchor (a) elements: set text color to white and remove text decoration */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Set font size for paragraphs to 19px */
+p {
+    font-size: 19px;
+}
+
+/* Style hero class: set height, width(fit the whole screen in y), margin bottom to 25px, add a background image */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Define float-left class: float left and set right margin to 25px */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* Define float-right class: float right and set left margin to 25px */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* Format to the section with class "content" */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* Format to the aside with class "benefits" */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* Style benefit classes: set margin-bottom to 32px and text color to white */
+.benefit-lead,
+.benefit-brand,
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+
+/* Style h3 in specific classes, set margin-bottom to 10px and align the text to center */
+.benefit-lead h3,
+.benefit-brand h3,
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+/* Style images in benefit sections: block display, margin to 10px, and max-width */
+.benefit-lead img,
+.benefit-brand img,
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* Format of the 3 articles inside the section: "content"*/
+.search-engine-optimization,
+.online-reputation-management,
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height:100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Set a maximum height of 200px for images in these specific sections */
+.search-engine-optimization img,
+.online-reputation-management img,
+.social-media-marketing img
+{
+    max-height: 200px;
+}
+
+/* Style h2 in specific classes: set margin-bottom to 20px and font-size to 36px */
+.search-engine-optimization h2,
+.online-reputation-management h2,
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+
+/* --------- FOOTER ---------*/
+/* set icon color to red */
+i {
+    color: red;
+}
+
+/* format for footer */
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/* format for the h3 inside the footer*/
+footer h3 {
+    font-size: 20px;
+}
+
+
