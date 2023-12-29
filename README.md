@@ -9,7 +9,7 @@ A webpage with several sections of information. The links at the top act as a ta
 
 - [Credits](#credits)
 - [License](#license)
-- [Appearance](#websiteappearance)
+- [Appearance](#website)
 
 ## Credits
 
